@@ -18,12 +18,9 @@ window.addEventListener('scroll', () => {
 
     lastScroll = scrollPosition();
 })
-
-$(document).ready(function() {
-	$('.header__toggles,.header__nav').click(function(events) {
-		$('.header__toggles,.header,.header__nav').toggleClass('active');
-		$('body').toggleClass('lock');
-	});
+// header dropdown toggle
+$('.js-header-toggle').click(function(){
+	$('body').toggleClass('is-show-dropdown lock');
 });
 
 $('.tickets-slider').slick({
