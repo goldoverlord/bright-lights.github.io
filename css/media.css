@@ -18,7 +18,6 @@
 	.quote__container {
 		margin: 0 15px;
 	}
-
 	.tickets__container {
 		padding: 0 15px;
 	}
@@ -27,8 +26,7 @@
 @media (max-width: 1024px) {
 	.header {
 		background: #2F2B2B;
-		padding: 10px 0;
-		height: 60px;
+		padding: 20px 0;
 	}
 	.header__nav {
 		display: none;
@@ -88,7 +86,7 @@
 		position: relative;
 		margin: 0;
 	}
-	.intro-news__card {
+	.intro__card {
 		min-height: 250px;
 	}
 	.about-us {
@@ -213,16 +211,18 @@
 
 @media (max-width: 767px) {
 	.row__col {
-		flex: 0 0 100%;
+		flex: 0 1 100%;
 		max-width: 100%;
 		margin-bottom: 20px;
 	}
-	.intro-news .row__col {
-		flex: 0 1 33.333%;
-		max-width: 33.333%;
+	.intro__row {
+		justify-content: center;
 	}
-	.intro-news .card {
-		min-height: 200px;
+	.intro__row .row__col {
+		margin-bottom: 40px;
+	}
+	.intro__row .card {
+		min-height: 450px;
 	}
 	.intro__suptitle {
 		font-size: 24px;
@@ -238,7 +238,7 @@
 }
 
 @media (max-width: 480px) {
-	.intro-news__card {
+	.intro__card {
 		min-height: 250px;
 	}
 }
