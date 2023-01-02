@@ -16,7 +16,6 @@ body.lock {
 }
 
 body.is-show-dropdown .header {
-	min-height: 5000px;
 	overflow: scroll;
 	height: 100%;
 	background: #2F2B2B;
@@ -28,10 +27,9 @@ body.is-show-dropdown .header__nav {
 	position: absolute;
 	top: 100px;
 	left: 0;
-	height: 100%;
 	width: 100%;
 	z-index: 200;
-	padding-bottom: 200px;
+	padding: 0 0 100px 0;
 }
 
 body.is-show-dropdown .header__nav .nav__list {
@@ -39,7 +37,6 @@ body.is-show-dropdown .header__nav .nav__list {
 	align-items: center;
 	flex-direction: column;
 	width: 100%;
-	height: 100%;
 }
 
 body.is-show-dropdown .header__nav .nav__item {
@@ -111,7 +108,6 @@ body.is-show-dropdown .toggle:nth-child(3) {
 	top: 0;
 	left: 0;
 	padding: 10px 0;
-	height: auto;
 	width: 100%;
 	z-index: 100;
 	transition: all .3s;

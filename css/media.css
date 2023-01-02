@@ -31,6 +31,9 @@
 	.header__nav {
 		display: none;
 	}
+	.header__nav .nav__link:after {
+		display: none;
+	}
 	.header__logo {}
 	.toggles {
 		display: block;
