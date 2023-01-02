@@ -33,19 +33,19 @@ $('.tickets-slider').slick({
 		{
 			breakpoint: 991,
 			settings: {
-			slidesToShow: 2,
+			slidesToShow: 3,
 			slidesToScroll: 1,
 		}
 		},
 		{
 			breakpoint: 767,
 			settings: {
-			slidesToShow: 1,
+			slidesToShow: 2,
 			slidesToScroll: 1,
 		}
 		},
 		{
-			breakpoint: 420,
+			breakpoint: 678,
 			settings: {
 			slidesToShow: 1,
 			slidesToScroll: 1,
