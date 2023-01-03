@@ -20,7 +20,7 @@
 	}
 	.header {
 		background: #2F2B2B;
-		padding: 20px 0;
+		padding: 10px 0;
 	}
 	.header__nav {
 		display: none;
@@ -28,7 +28,9 @@
 	.header__nav .nav__link:after {
 		display: none;
 	}
-	.header__logo {}
+	.header__logo {
+		height: 44px;
+	}
 	.toggles {
 		display: block;
 	}

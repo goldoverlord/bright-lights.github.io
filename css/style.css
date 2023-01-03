@@ -144,11 +144,15 @@ body.is-show-dropdown .toggle:nth-child(3) {
 .logo {}
 
 .header__logo {
+	display: block;
 	height: 60px;
 	margin-right: auto;
 }
 
 .logo__img {
+	display: block;
+	width: 100%;
+	height: 100%;
 	opacity: 1;
 	transition: all .4s; 
 }
