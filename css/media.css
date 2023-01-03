@@ -61,7 +61,7 @@
 		margin-bottom: 40px;
 	}
 	.intro__title-img {
-		width: 500px;
+		width: 100%;
 	}
 	.intro__play-line {
 		margin-bottom: 60px;
@@ -87,6 +87,9 @@
 	.intro__card {
 		min-height: 250px;
 	}
+	.intro__card .card__link {
+		font-size: 18px;
+	}
 	.about-us {
 		padding: 40px 0;
 	}
@@ -108,23 +111,18 @@
 	.about-us-collection__item:not(:last-child) {
 		margin-bottom: 20px !important;
 	}
-	.about-us-item__info {
-	}
 	.about-us-item__info>p {
-		font-size: 24px;
+		font-size: 16px;
 	}
 	.about-us-collection__title {
-		font-size: 28px;
+		font-size: 24px;
 	}
 	.about-us-item__title {
-		font-size: 44px;
+		font-size: 34px;
 		margin-bottom: 20px;
 	}
 	.quote {
 		padding: 40px 0;
-	}
-	.quote__container {
-		margin: 0 15px;
 	}
 	.track-list {
 		padding: 40px 0;
@@ -138,6 +136,7 @@
 		min-height: 510px;
 		order: -1;
 		margin-right: 0;
+		margin-bottom: 40px;
 	}
 	.track-list__tracks {
 		margin-bottom: 40px;
@@ -175,14 +174,14 @@
 		display: none;
 	}
 	.track-list__title {
-		font-size: 44px;
+		font-size: 34px;
 		margin-bottom: 40px;
 	}
 	.tracks__item span:first-child {
 		font-size: 20px;
 	}
 	.tracks__item span{
-		font-size: 22px;
+		font-size: 18px;
 	}
 	.galerry__list {
 		flex-wrap: wrap;
@@ -278,27 +277,24 @@
 		margin-bottom: 40px;
 	}
 	.intro__row .card {
-		min-height: 450px;
+		min-height: 350px;
 	}
 	.intro__suptitle {
-		font-size: 24px;
+		font-size: 34px;
 		margin-bottom: 20px;
 	}
 	.intro__title {
 		width: 100%;
-		height: 44px;
-	}
-	.intro__title-img {
-		width: 200px;
+		height: 64px;
 	}
 	.galerry__row .row__col--3 {
 		flex-basis: 50%;
 		max-width: 50%;
-		height: 700px;
+		height: 400px;
 		margin-bottom: 20px;
 	}
 	.galerry__row .row__wrap {
-		height: 700px;
+		height: 400px;
 	}
 	.galerry__row>.row__col--6 {
 		flex-basis: 100%;
@@ -342,9 +338,6 @@
 		white-space: normal;
 		margin-right: 0px;
 	}
-	.intro__card {
-		min-height: 250px;
-	}
 	.footer-contact__item {
 		text-align: center;
 		flex-direction: column;
@@ -361,6 +354,9 @@
 	}
 	.about-us__bg-img {
 		object-fit: cover;
+	}
+	.track-list__img-body {
+		min-height: 340px;
 	}
 }
 
