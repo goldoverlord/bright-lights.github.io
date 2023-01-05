@@ -255,13 +255,16 @@
 		max-width: 50%;
 	}
 	.tickets {
-		padding: 40px 0 60px;
+		padding: 40px 0 20px;
 	}
 	.footer__contact {
 		margin-bottom: 0 auto 20px !important;
 	}
 	.about-us__picture {
 		margin: 0;
+	}
+	.footer {
+		padding-top: 20px;
 	}
 }
 
