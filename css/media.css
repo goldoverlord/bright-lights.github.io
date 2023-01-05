@@ -12,6 +12,12 @@
 		visibility: hidden;
 	}
 }
+
+@media (max-width: 1100px) {
+	.about-us__bg-img--back {
+		left: 66px;
+	}
+}
  
 
 @media (max-width: 1024px) {
@@ -262,6 +268,14 @@
 	}
 	.about-us__picture {
 		margin: 0;
+	}
+	.about-us__bg-img--forvard {
+		left: 50%;
+		transform: translateX(-50%);
+	}
+	.about-us__bg-img--back {
+		left: calc(50% + 95px);
+		transform: translateX(-50%);
 	}
 	.footer {
 		padding-top: 20px;

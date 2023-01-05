@@ -274,7 +274,7 @@ h1,h2,h3,h4,h5,h6 {
 	position: absolute;
 	left: 0;
 	top: 0; 
-	background-image: url(../img/intro.jpg); 
+	background-image: url(../img/intro.jpg);
 	background-position: center;
 	background-repeat: no-repeat; 
 	background-size: cover;
@@ -531,30 +531,26 @@ h1,h2,h3,h4,h5,h6 {
 .about-us-collection {}
 
 .about-us-item__collection {
+}
+
+.about-us-collection__wrap {
 	display: flex;
 	flex-wrap: wrap;
+	margin: 0 -10px -34px;
 }
 
 .about-us-collection__item {
-	flex: 0 0 40%;
-	max-width: 40%;
+	flex: 0 0 50%;
+	max-width: 50%;
 	display: flex;
 	align-items: center;
-}
-
-.about-us-collection__item:not(:last-child) {
-	margin-bottom: 34px;
-}
-
-.about-us-collection__item:nth-child(odd) {
-	margin-right: 40px;
+	padding: 0 10px;
 }
 
 .about-us__picture {
 	display: block;
 	min-height: 466px;
 	position: relative;
-	margin-left: 20px;
 }
 
 .about-us__bg-img {
@@ -580,15 +576,25 @@ h1,h2,h3,h4,h5,h6 {
 	z-index: -1;
 }
 
-.about-us-collection__img {
-	margin-right: 20px;
-}
-
 .about-us-collection__title {
+	display: block;
 	font-size: 18px;
 	color: #fff;
 	font-weight: 600;
-	object-fit: cover;
+	padding: 0 0 0 50px;
+	position: relative;
+}
+
+.about-us-collection__title:after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 30px;
+	height: 30px;
+	background: #7A66CC;
+	border-bottom-right-radius: 10px;
+	border-top-left-radius: 10px;
 }
 
 /* quote =========== */
@@ -694,7 +700,6 @@ h1,h2,h3,h4,h5,h6 {
 	justify-content: center;
 	flex-basis: auto;
 	position: relative;
-	margin-right: 60px;
 	flex-basis: 510px;
 	max-width: 510px;
 }
@@ -704,6 +709,7 @@ h1,h2,h3,h4,h5,h6 {
 	max-width: 50%;
 	display: flex;
 	flex-direction: column;
+	padding-left: 60px;
 }
 
 .track-list__title {
@@ -873,6 +879,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .galerry__link {
+	opacity: 0;
 	display: block;
 	font-size: 24px;
 	color: #7A66CC;
